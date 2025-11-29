@@ -2,7 +2,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import FadeIn from "@/components/FadeIn";
-import Image from "next/image";
 
 export default function Electrical() {
   return (

@@ -46,7 +46,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="text-lg text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed"
           >
-            AURA is a 200-lb-capacity autonomous robot cart built to spare you from the grunt work of carrying heavy loads. It uses computer vision and UWB tracking to follow you through crowded or cluttered spaces, avoiding obstacles along the way. Whether you're moving out, navigating an airport, or just juggling too much at once, AURA lets you focus on where you're going while it handles the weight.
+            AURA is a 200-lb-capacity autonomous robot cart built to spare you from the grunt work of carrying heavy loads. It uses computer vision and UWB tracking to follow you through crowded or cluttered spaces, avoiding obstacles along the way. Whether you&apos;re moving out, navigating an airport, or just juggling too much at once, AURA lets you focus on where you&apos;re going while it handles the weight.
           </motion.p>
         </FadeIn>
 

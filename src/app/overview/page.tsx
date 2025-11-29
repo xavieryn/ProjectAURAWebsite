@@ -32,17 +32,17 @@ export default function Overview() {
                 subsystem working on its own first, almost like scattered puzzle
                 pieces, and then slowly brought them together into a single
                 system. There were plenty of moments when we disagreed about the
-                final design and couldn't settle on one direction, but each time
-                we returned to the MVP to figure out what was truly necessary.
-                If something didn't help us reach that minimal goal, we let it
-                go.
+                final design and couldn&apos;t settle on one direction, but each
+                time we returned to the MVP to figure out what was truly
+                necessary. If something didn&apos;t help us reach that minimal
+                goal, we let it go.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed mt-4">
                 Money pushed us to be creative too. Even after adding some of
-                our own funds, we still couldn't afford certain parts like a
-                lidar. We borrowed one, struggled with its integration with our
-                cart, and was eventually lucky enough to borrow a depth camera
-                from another team that better suited our needs.
+                our own funds, we still couldn&apos;t afford certain parts like
+                a lidar. We borrowed one, struggled with its integration with
+                our cart, and was eventually lucky enough to borrow a depth
+                camera from another team that better suited our needs.
               </p>
             </div>
           </FadeIn>
