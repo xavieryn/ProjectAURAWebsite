@@ -19,58 +19,9 @@ export default function Mechanical() {
               </p>
             </div>
           </FadeIn>
-
-          <div className="grid lg:grid-cols-2 gap-12">
-            <FadeIn direction="right" delay={0.2}>
-              <Card className="p-8 bg-gray-50 border-0 shadow-lg">
-                <CardContent className="p-0">
-                  <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                    Frame Design
-                  </h2>
-                  <div className="space-y-4">
-                    <p className="text-gray-600 leading-relaxed">
-                      Insert information about the frame design, materials used, and
-                      structural considerations here.
-                    </p>
-                  </div>
-                </CardContent>
-              </Card>
-            </FadeIn>
-
-            <FadeIn direction="left" delay={0.2}>
-              <Card className="p-8 bg-gray-50 border-0 shadow-lg">
-                <CardContent className="p-0">
-                  <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                    Mounts and Assembly
-                  </h2>
-                  <div className="space-y-4">
-                    <p className="text-gray-600 leading-relaxed">
-                      Details about mounting systems, assembly process, and mechanical
-                      integration components.
-                    </p>
-                  </div>
-                </CardContent>
-              </Card>
-            </FadeIn>
-          </div>
-
-          <FadeIn direction="up" delay={0.4}>
-            <Card className="p-8 bg-gray-50 border-0 shadow-lg mt-12">
-              <CardContent className="p-0">
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                  Additional Mechanical Components
-                </h2>
-                <p className="text-gray-600 leading-relaxed">
-                  Add more mechanical details, CAD drawings, manufacturing processes, or
-                  any other relevant mechanical engineering information here.
-                </p>
-              </CardContent>
-            </Card>
-          </FadeIn>
         </div>
       </section>
       <Footer />
     </main>
   );
 }
-
