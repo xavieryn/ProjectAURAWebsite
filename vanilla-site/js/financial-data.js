@@ -37,7 +37,12 @@ const financialData = {
           total: 31.86,
         },
         { name: "5/8 Sprocket Hub", cost: 17.31, quantity: 4, total: 69.24 },
-        { name: "14''*5/8 Keyway Shaft", cost: 15.13, quantity: 2, total: 30.26 },
+        {
+          name: "14''*5/8 Keyway Shaft",
+          cost: 15.13,
+          quantity: 2,
+          total: 30.26,
+        },
         {
           name: "#25 Roller Chain with Links",
           cost: 15.93,
@@ -76,13 +81,23 @@ const financialData = {
         },
         { name: "#410 Chain", cost: 12.74, quantity: 2, total: 25.48 },
         { name: "16T #410 Sprocket", cost: 13.8, quantity: 2, total: 27.6 },
-        { name: "18''*12'' Mild Steel Plate", cost: 68.7, quantity: 1, total: 68.7 },
+        {
+          name: "18''*12'' Mild Steel Plate",
+          cost: 68.7,
+          quantity: 1,
+          total: 68.7,
+        },
       ],
     },
     {
       category: "Free",
       data: [
-        { name: "2 inch slab of wood (30x30)", cost: 50, quantity: 1, total: 50 },
+        {
+          name: "2 inch slab of wood (30x30)",
+          cost: 50,
+          quantity: 1,
+          total: 50,
+        },
         { name: "Realsense D457", cost: 300, quantity: 1, total: 300 },
         { name: "Raspberry PI", cost: 80, quantity: 1, total: 80 },
         { name: "UWB Modules", cost: 50, quantity: 4, total: 200 },
@@ -124,18 +139,26 @@ const financialData = {
       ],
     },
   ],
-  getPurchasedTotal: function() {
+  getPurchasedTotal: function () {
     return this.categories
-      .filter(cat => cat.category !== "Free")
-      .reduce((sum, cat) => sum + cat.data.reduce((catSum, item) => catSum + item.total, 0), 0);
+      .filter((cat) => cat.category !== "Free")
+      .reduce(
+        (sum, cat) =>
+          sum + cat.data.reduce((catSum, item) => catSum + item.total, 0),
+        0
+      );
   },
-  getFreeTotal: function() {
+  getFreeTotal: function () {
     return this.categories
-      .filter(cat => cat.category === "Free")
-      .reduce((sum, cat) => sum + cat.data.reduce((catSum, item) => catSum + item.total, 0), 0);
+      .filter((cat) => cat.category === "Free")
+      .reduce(
+        (sum, cat) =>
+          sum + cat.data.reduce((catSum, item) => catSum + item.total, 0),
+        0
+      );
   },
-  getGrandTotal: function() {
+  getGrandTotal: function () {
     return this.getPurchasedTotal() + this.getFreeTotal();
-  }
+  },
 };
 

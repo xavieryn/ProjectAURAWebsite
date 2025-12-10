@@ -17,3 +17,4 @@ Example:
 - If you add avatar.png, update index.html: <img src="assets/avatar.png" alt="Your description">
 - For Open Graph images, add og-image.png and reference it in the meta tags
 
+

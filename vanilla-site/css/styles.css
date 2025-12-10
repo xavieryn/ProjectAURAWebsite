@@ -25,8 +25,9 @@
   --color-blue-50: #eff6ff;
   --color-blue-200: #bfdbfe;
   --color-focus: #2563eb;
-  
-  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
   --font-size-base: 1rem;
   --font-size-lg: 1.125rem;
   --font-size-xl: 1.25rem;
@@ -36,7 +37,7 @@
   --font-size-5xl: 3rem;
   --font-size-6xl: 3.75rem;
   --font-size-7xl: 4.5rem;
-  
+
   --spacing-xs: 0.5rem;
   --spacing-sm: 1rem;
   --spacing-md: 1.5rem;
@@ -44,7 +45,7 @@
   --spacing-xl: 3rem;
   --spacing-2xl: 4rem;
   --spacing-3xl: 6rem;
-  
+
   --container-max-width: 1280px;
   --border-radius: 0.5rem;
   --transition: 0.2s ease;
@@ -79,15 +80,23 @@ body {
 }
 
 /* Typography */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   line-height: 1.2;
   font-weight: 700;
   color: var(--color-text);
 }
 
-h1 { font-size: var(--font-size-4xl); }
-h2 { font-size: var(--font-size-3xl); }
-h3 { font-size: var(--font-size-2xl); }
+h1 {
+  font-size: var(--font-size-4xl);
+}
+h2 {
+  font-size: var(--font-size-3xl);
+}
+h3 {
+  font-size: var(--font-size-2xl);
+}
 
 p {
   margin-bottom: var(--spacing-sm);
@@ -124,10 +133,18 @@ a:focus {
 }
 
 /* Utility Classes */
-.text-center { text-align: center; }
-.mb-12 { margin-bottom: 3rem; }
-.mb-16 { margin-bottom: 4rem; }
-.mt-12 { margin-top: 3rem; }
+.text-center {
+  text-align: center;
+}
+.mb-12 {
+  margin-bottom: 3rem;
+}
+.mb-16 {
+  margin-bottom: 4rem;
+}
+.mt-12 {
+  margin-top: 3rem;
+}
 
 /* Header and Navigation */
 .header {
@@ -504,7 +521,7 @@ a:focus {
 }
 
 .objective-card li::before {
-  content: '•';
+  content: "•";
   margin-right: var(--spacing-xs);
   font-weight: bold;
 }
@@ -698,7 +715,7 @@ a:focus {
 }
 
 .detail-list li::before {
-  content: '•';
+  content: "•";
   margin-right: var(--spacing-md);
   font-weight: 700;
   color: var(--color-text);
@@ -794,27 +811,27 @@ a:focus {
   .hero h1 {
     font-size: var(--font-size-7xl);
   }
-  
+
   .team-grid {
     grid-template-columns: repeat(3, 1fr);
   }
-  
+
   .sections-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   .objectives-grid {
     grid-template-columns: repeat(3, 1fr);
   }
-  
+
   .diagrams-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   .software-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   .footer-bottom {
     flex-direction: row;
     justify-content: space-between;
@@ -825,15 +842,15 @@ a:focus {
   .nav-toggle {
     display: none;
   }
-  
+
   .nav-menu {
     display: flex;
   }
-  
+
   .team-grid {
     grid-template-columns: repeat(5, 1fr);
   }
-  
+
   .sections-grid {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -843,7 +860,7 @@ a:focus {
   .nav-toggle {
     display: flex;
   }
-  
+
   .nav-menu {
     position: fixed;
     top: 4rem;
@@ -856,23 +873,23 @@ a:focus {
     transition: left var(--transition);
     border-bottom: 1px solid var(--color-border);
   }
-  
+
   .nav-menu.active {
     left: 0;
   }
-  
+
   .nav-item {
     margin-bottom: var(--spacing-sm);
   }
-  
+
   .nav-toggle[aria-expanded="true"] .hamburger:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
   }
-  
+
   .nav-toggle[aria-expanded="true"] .hamburger:nth-child(2) {
     opacity: 0;
   }
-  
+
   .nav-toggle[aria-expanded="true"] .hamburger:nth-child(3) {
     transform: rotate(-45deg) translate(7px, -6px);
   }

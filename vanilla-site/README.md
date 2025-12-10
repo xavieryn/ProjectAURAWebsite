@@ -9,20 +9,25 @@ This is a complete website port of the Project AURA React site to vanilla HTML/C
 ## Preview Locally
 
 ### Option 1: Python HTTP Server
+
 ```bash
 cd vanilla-site
 python -m http.server 8000
 ```
+
 Then open `http://localhost:8000` in your browser.
 
 ### Option 2: Using Node.js serve
+
 ```bash
 cd vanilla-site
 npx serve .
 ```
+
 Follow the instructions to open the URL in your browser.
 
 ### Option 3: Using PHP (if installed)
+
 ```bash
 cd vanilla-site
 php -S localhost:8000
@@ -31,24 +36,29 @@ php -S localhost:8000
 ## Customization
 
 ### Content
+
 All pages contain editable content. Key areas:
+
 - **Team members**: Edit team names and roles in `index.html`
 - **Financial breakdown**: Update data in `js/financial-data.js`
 - **Design decisions**: Add content to placeholders in `design-process.html`
 - **Diagrams**: Replace diagram placeholders with actual images in `assets/`
 
 ### Styling (css/styles.css)
+
 - **Colors**: Modify CSS custom properties in `:root` at the top of the file
 - **Typography**: Update font families and sizes
 - **Layout**: Adjust grid/flexbox properties for different layouts
 - **Responsive breakpoints**: Change `@media` query breakpoints as needed
 
 ### JavaScript
+
 - **main.js**: Handles navigation, mobile menu, smooth scrolling, and active link highlighting
 - **financial-data.js**: Contains all financial breakdown data
 - **financial-table.js**: Renders the financial breakdown table dynamically
 
 ### Assets (assets/)
+
 - `system-diagram.jpg` - System flow diagram
 - `data-flow-energy-diagram.jpg` - Power and communication diagram
 - Add electrical diagram and other assets as needed
@@ -92,4 +102,3 @@ Works in all modern browsers (Chrome, Firefox, Safari, Edge). No polyfills neede
 ## Inspiration
 
 This project structure and approach was inspired by: https://github.com/olincollege/pie-2025-03/blob/main/docs/example-css-page/index.html
-
