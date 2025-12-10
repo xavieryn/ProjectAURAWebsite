@@ -41,16 +41,6 @@ export default function Header() {
 
           <div className="hidden md:flex items-center space-x-8">
             <Link
-              href="/"
-              className={`transition-colors duration-200 font-medium ${
-                pathname === "/"
-                  ? "text-gray-900"
-                  : "text-gray-600 hover:text-gray-900"
-              }`}
-            >
-              Home
-            </Link>
-            <Link
               href="/overview"
               className={`transition-colors duration-200 font-medium ${
                 pathname === "/overview"
