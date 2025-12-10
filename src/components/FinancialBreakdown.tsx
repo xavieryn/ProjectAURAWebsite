@@ -19,12 +19,6 @@ const items: Category[] = [
     category: "Electronics",
     data: [
       {
-        name: "10 amp breaker for small boy",
-        cost: 15,
-        quantity: 1,
-        total: 15,
-      },
-      {
         name: "50 amp breaker (30 amp continous and 80 amp surge + 4 amp constant)",
         cost: 12,
         quantity: 1,
@@ -37,14 +31,6 @@ const items: Category[] = [
         quantity: 1,
         total: 32,
       },
-      {
-        name: "Small Power Distribution Panel",
-        cost: 14,
-        quantity: 1,
-        total: 14,
-      },
-      { name: "WAGOs (for sensors)", cost: 10, quantity: 1, total: 10 },
-      { name: "12 to 5 converter", cost: 10, quantity: 1, total: 10 },
     ],
   },
   {
@@ -53,93 +39,58 @@ const items: Category[] = [
       { name: "Battery", cost: 138.11, quantity: 1, total: 138.11 },
       {
         name: "MY1016 24V 250w DC motor with Gearbox",
-        cost: 100.58,
+        cost: 50.29,
         quantity: 2,
         total: 100.58,
       },
-      {
-        name: "6-Inch Trolley Wheel x2",
-        cost: 28.99,
-        quantity: 2,
-        total: 61.6,
-      },
-      { name: "5/8 Shaft Collars x8", cost: 12.95, quantity: 2, total: 13.76 },
+      { name: "5/8 Shaft Collars x8", cost: 6.88, quantity: 2, total: 13.76 },
       {
         name: "5/8 Flanged Ball Bearing x10",
-        cost: 14.99,
+        cost: 15.93,
         quantity: 2,
         total: 31.86,
       },
-      { name: "5/8 Sprocket Hub", cost: 16.29, quantity: 4, total: 69.24 },
-      { name: "14''*5/8 Keyway Shaft", cost: 14.99, quantity: 2, total: 30.26 },
+      { name: "5/8 Sprocket Hub", cost: 17.31, quantity: 4, total: 69.24 },
+      { name: "14''*5/8 Keyway Shaft", cost: 15.13, quantity: 2, total: 30.26 },
       {
         name: "#25 Roller Chain with Links",
-        cost: 14.99,
+        cost: 15.93,
         quantity: 2,
         total: 31.86,
       },
       {
         name: "Optical Rotary Encoder",
-        cost: 18.99,
+        cost: 16.54,
         quantity: 2,
         total: 33.08,
       },
       {
-        name: "6mm Flanged Coupling Connector x4",
-        cost: 5.59,
+        name: "6mm Flanged Coupling Connecter x4",
+        cost: 5.94,
         quantity: 1,
         total: 5.94,
       },
       {
-        name: "PN00218-CYT14 Motor Controller",
-        cost: 88,
-        quantity: 1,
-        total: 95.01,
-      },
-      {
-        name: "Nema 23 Stepper Motor 2.4NM",
-        cost: 25.99,
-        quantity: 2,
-        total: 55.22,
-      },
-      {
-        name: "TB6600 Stepper Motor Driver",
-        cost: 9.99,
-        quantity: 2,
-        total: 21.22,
-      },
-      {
         name: "#25 Chain Sprocket 10 Tooth",
-        cost: 9.29,
+        cost: 9.87,
         quantity: 1,
         total: 9.87,
       },
       {
-        name: "AlveyTech #25 Chain Sprocket 80 Tooth",
-        cost: 14.51,
+        name: "AlveyTech#25 Chain Sprocket 80 Tooth",
+        cost: 15.415,
         quantity: 2,
         total: 30.83,
       },
       {
         name: "4inch Turntable Bearing",
-        cost: 12.99,
+        cost: 13.8,
         quantity: 2,
         total: 27.6,
       },
-      { name: "#410 Chain", cost: 11.99, quantity: 2, total: 25.48 },
-      { name: "16T #410 Sprocket", cost: 12.99, quantity: 2, total: 27.6 },
-      { name: "M4 Bolt & Nut", cost: 8.99, quantity: 1, total: 9.55 },
-      { name: "M5 Bolt & Nut", cost: 9.99, quantity: 1, total: 10.61 },
-      { name: "M6 Bolt & Nut", cost: 9.99, quantity: 1, total: 10.61 },
-      { name: "M8 Bolt & Nut", cost: 18.99, quantity: 1, total: 20.18 },
-      { name: "DC 24V to 12V Converter", cost: 9.29, quantity: 1, total: 9.87 },
-    ],
-  },
-  {
-    category: "Chassis",
-    data: [
-      { name: "T-Slot Nut", cost: 10.99, quantity: 1, total: 10.99 },
-      { name: "Extra M6 bolts", cost: 8.5, quantity: 1, total: 8.5 },
+      { name: "#410 Chain", cost: 12.74, quantity: 2, total: 25.48 },
+      { name: "16T #410 Sprocket", cost: 13.8, quantity: 2, total: 27.6 },
+      { name: "18''*12'' Mild Steel Plate", cost: 68.7, quantity: 1, total: 68.7 },
     ],
   },
   {
@@ -155,14 +106,50 @@ const items: Category[] = [
         quantity: 1,
         total: 20,
       },
+      {
+        name: "Nema 23 Stepper Motor 2.4NM",
+        cost: 27.61,
+        quantity: 2,
+        total: 55.22,
+      },
+      {
+        name: "TB6600 Stepper Motor Driver",
+        cost: 10.61,
+        quantity: 2,
+        total: 21.22,
+      },
+      {
+        name: "6-Inch Trolley Wheel x2",
+        cost: 30.8,
+        quantity: 2,
+        total: 61.6,
+      },
+      { name: "Various bolts", cost: 20, quantity: 1, total: 20 },
+      { name: "T-Slot Nut", cost: 10.99, quantity: 1, total: 10.99 },
+      { name: "Extra M6 bolts", cost: 8.5, quantity: 1, total: 8.5 },
+      { name: "WAGOs (for sensors)", cost: 10, quantity: 1, total: 10 },
+      {
+        name: "PN00218-CYT14 Motor Controller",
+        cost: 95.01,
+        quantity: 1,
+        total: 95.01,
+      },
+      { name: "UWB Module", cost: 225, quantity: 1, total: 225 },
     ],
   },
 ];
 
 export default function FinancialBreakdown() {
-  // Use exact totals as specified
-  const purchasedTotal = 972.93;
-  const grandTotal = 1622.93;
+  // Calculate totals from actual data
+  const purchasedTotal = items
+    .filter((cat) => cat.category !== "Free")
+    .reduce((sum, cat) => sum + cat.data.reduce((catSum, item) => catSum + item.total, 0), 0);
+
+  const freeTotal = items
+    .filter((cat) => cat.category === "Free")
+    .reduce((sum, cat) => sum + cat.data.reduce((catSum, item) => catSum + item.total, 0), 0);
+
+  const grandTotal = purchasedTotal + freeTotal;
 
   return (
     <div className="space-y-8">
