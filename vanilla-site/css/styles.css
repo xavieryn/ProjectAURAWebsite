@@ -566,6 +566,14 @@ a:focus {
   font-size: var(--font-size-lg);
 }
 
+.pdf-viewer {
+  width: 100%;
+  min-height: 600px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 /* Financial Table */
 .table-wrapper {
   overflow-x: auto;
@@ -712,6 +720,7 @@ a:focus {
   margin-bottom: var(--spacing-md);
   color: var(--color-text);
   line-height: 1.75;
+  gap: 0.25rem; /* Ensure space between strong and following text */
 }
 
 .detail-list li::before {
@@ -726,6 +735,24 @@ a:focus {
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--spacing-xl);
+}
+
+/* Mechanical Page */
+.mechanical-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mechanical-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-lg);
+}
+
+.card-subtitle {
+  font-size: var(--font-size-2xl);
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text);
 }
 
 /* Footer */
@@ -829,6 +856,10 @@ a:focus {
   }
 
   .software-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .mechanical-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
